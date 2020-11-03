@@ -1,10 +1,9 @@
-[![Build Status](https://travis-ci.org/ExOLever/exo-service-wizard.svg?branch=devel)](https://travis-ci.org/ExOLever/exo-service-wizard)
 
 ![Logo](logo.png) **ExoLever Boilerplate Angular Elements**  
 
 # Installation
 
-1. `git clonehttps://github.com/ExOLever/exo-service-wizard.git`
+1. `git clone https://github.com/ajmelgarejoseg/exo-event-list.git`
 2. `npm install`
 3. `npm run start` to local or `npm run build:elements` to create the custom elements
 
@@ -18,13 +17,18 @@
 
 1. Create an index.html file
 2. ```html
-   <exo-custom-element></exo-custom-element>
-   <script src="https://github.com/ExOLever/exo-service-wizard/releases/download/X.Y.Z/exo-custom-element.js"></script>
-   <link rel="stylesheet" href="https://github.com/ExOLever/exo-service-wizard/releases/download/X.Y.Z/styles.css">
+   <script>
+     <exo-event-list domain="https://platform.openexo.com" ></exo-event-list>  
+   </script>
+   
+   <script src="https://platform.openexo.com/custom-elements/exo-event-list/exo-event-list.js"></script>
+   <link rel="stylesheet" href="https://platform.openexo.com/custom-elements/exo-event-list/styles.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
    ```
-   where X.Y.Z is the release number
+3. To set the widget inside a wordpress/squarespace project page you need to insert an inject code section in the page you want the widget,
+for instance https://www.ostraining.com/blog/wordpress/custom-js/
+  
 
 # Running unit test
 
