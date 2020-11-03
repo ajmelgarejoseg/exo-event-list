@@ -1,5 +1,7 @@
 
-![Logo](https://static1.squarespace.com/static/5b33ad559772aedf7cd44bf7/t/5c48589ccd836610282dfb98/1603922794025/?format=1500w) **ExoLever Boilerplate Angular Elements**  
+![Logo](https://static1.squarespace.com/static/5b33ad559772aedf7cd44bf7/t/5c48589ccd836610282dfb98/1603922794025/?format=1500w) 
+
+**OpenExO Boilerplate Angular Elements**  
 
 # Installation
 
